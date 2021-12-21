@@ -1,0 +1,38 @@
+.heading {
+  padding: 3% 0 3%;
+}
+
+.project-card {
+  margin: 2% 0 5%;
+  padding: 5%;
+}
+
+.project-card img {
+  border-radius: 50%;
+  width: 200px;
+  float: right;
+  margin: 0 3% 0 4%;
+}
+
+@media only screen and (max-width: 700px) {
+  .project-card img {
+    border-radius: 50%;
+    width: 320px;
+    float: None;
+    margin: 5% 0;
+  }
+  .project-card {
+    text-align: center;
+  }
+  .project-card-content p {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .project-card img {
+    width: 300px;
+    float: None;
+    margin: 5% 0;
+  }
+}

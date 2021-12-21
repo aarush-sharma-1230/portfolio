@@ -1,0 +1,65 @@
+.about-intro {
+  padding: 5%;
+  border-radius: 7px;
+  margin-bottom: 10%;
+}
+
+.intro-title {
+  margin-bottom: 3%;
+}
+
+.about-intro div {
+  overflow: hidden;
+}
+
+.about-intro img {
+  border-radius: 50%;
+  width: 350px;
+  float: right;
+  margin: 0 3%;
+}
+
+.about-hobbies {
+  padding: 4% 5%;
+  border-radius: 7px;
+  margin-bottom: 3%;
+}
+
+.hobby {
+  margin: 5% 0;
+}
+
+@media only screen and (max-width: 961px) {
+  .about-intro {
+    text-align: center;
+  }
+
+  .about-intro img {
+    border-radius: 50%;
+    width: 400px;
+    float: None;
+    margin: 3% auto;
+  }
+
+  .about-intro-content {
+    text-align: left !important;
+  }
+}
+
+@media only screen and (max-width: 641px) {
+  .about-intro img {
+    border-radius: 50%;
+    width: 300px;
+    float: None;
+    margin: 3% auto;
+  }
+  .hobby {
+    margin: 15% 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about-intro-content button {
+    width: 100%;
+  }
+}
