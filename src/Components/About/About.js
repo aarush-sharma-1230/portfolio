@@ -41,9 +41,9 @@ const About = () => {
         </div>
         <div>
           {hobbies.map((hobby) => {
-            const { title, content } = hobby;
+            const { serial_key, title, content } = hobby;
             return (
-              <div className="hobby">
+              <div className="hobby" key={serial_key}>
                 <h2>{title}</h2>
                 <p>{content}</p>
               </div>

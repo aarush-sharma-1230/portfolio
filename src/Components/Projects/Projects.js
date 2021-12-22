@@ -12,7 +12,7 @@ const Projects = () => {
         </div>
         <div className="projects">
           {projects.map((project) => {
-            return <Card project={project} />;
+            return <Card project={project} key={project.serial_key} />;
           })}
         </div>
       </div>
