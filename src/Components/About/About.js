@@ -1,9 +1,10 @@
 import React from "react";
 import myPicture from "../../Images/Aarush_Sharma.jpg";
-import { hobbies } from "../Store/Store";
+import { hobbies, aboutMe } from "../Store/Store";
 import "./About.css";
 
 const About = () => {
+  const { intro, main } = aboutMe;
   return (
     <div className="box">
       <div className="about-intro frosted-pane">
@@ -13,17 +14,10 @@ const About = () => {
         <img src={myPicture} alt="Me"></img>
         <div className="about-intro-content">
           <p>
-            I have always been fascinated by how the tech around us works and
-            evolves. Thats how I got myself into programming.
+            {intro}
             <br />
             <br />
-            Graduating with B-Tech from Indian Institute of Technology - BHU, I
-            began learning to code, solving competitive algorithmic problems.
-            Being lazy by nature, I built a python automation script as my first
-            project. As I explored around, I began learning the fundamentals of
-            web development and enjoyed an artistic emotion as I created various
-            front apps. These days I am working on building web applications
-            using the MERN stack.
+            {main}
           </p>
           <a
             href="https://drive.google.com/file/d/1XmDEnfjcfgOrGiMLtu-PT2yD-R2kcd1c/view?usp=sharing"
