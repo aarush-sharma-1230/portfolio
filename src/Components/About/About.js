@@ -20,7 +20,7 @@ const About = () => {
             {main}
           </p>
           <a
-            href="https://drive.google.com/file/d/1XmDEnfjcfgOrGiMLtu-PT2yD-R2kcd1c/view?usp=sharing"
+            href="https://drive.google.com/file/d/1GSmyCZ6CRYXZFANvW2LII9hK37wDOQmA/view?usp=sharing"
             rel="noreferrer nofollow"
             target="_blank"
           >
