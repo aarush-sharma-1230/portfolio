@@ -15,10 +15,14 @@
 @media only screen and (max-width: 680px) {
   .home-intro {
     padding-top: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
+
   .home-intro h1 {
     font-size: 2.5rem;
   }
+
   .home-intro h3 {
     font-size: 1.3rem;
   }

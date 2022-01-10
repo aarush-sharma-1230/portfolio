@@ -1,19 +1,20 @@
 .footer {
-  padding: 0.5% 0 0.5%;
+  padding: 0.7rem 0 0.3rem;
   border-radius: 0 !important;
 }
 
 .footer hr {
   border: none;
   border-top: 1px dotted white;
-  width: 12%;
+  width: 10rem;
   margin: 0 auto;
+  padding: 0 0 0.1rem;
 }
 
 .footer-icons {
-  padding: 0.5% 0 0.5%;
+  padding: 0.1rem 0 0.5rem;
 }
 
 .footer-icons a {
-  margin: 0 1%;
+  margin: 0 0.8rem;
 }
