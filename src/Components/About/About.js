@@ -4,7 +4,7 @@ import { hobbies, aboutMe } from "../Store/Store";
 import "./About.css";
 
 const About = () => {
-  const { intro, main } = aboutMe;
+  const { intro, main, resume } = aboutMe;
   return (
     <div className="box">
       <div className="about-intro frosted-pane">
@@ -19,11 +19,7 @@ const About = () => {
             <br />
             {main}
           </p>
-          <a
-            href="https://drive.google.com/file/d/1GSmyCZ6CRYXZFANvW2LII9hK37wDOQmA/view?usp=sharing"
-            rel="noreferrer nofollow"
-            target="_blank"
-          >
+          <a href={resume} rel="noreferrer nofollow" target="_blank">
             <button className="transparent-button">My Resume</button>
           </a>
         </div>
