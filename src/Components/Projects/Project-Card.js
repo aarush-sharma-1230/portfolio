@@ -10,16 +10,16 @@ const Card = (props) => {
       <img className="float-right" src={image} alt="Project" />
       <div className="project-card-content">
         <h1>{title}</h1>
-        <p>{content}</p>
-        {tools && <p>{tools}</p>}
-        {link && (
-          <p>
-            Visit{" "}
+        <p>
+          {content}
+          {" Visit  "}
+          {link && (
             <a href={link} rel="noreferrer nofollow" target="_blank">
               here
             </a>
-          </p>
-        )}
+          )}
+        </p>
+        {tools && <p>{tools}</p>}
       </div>
     </div>
   );
