@@ -38,6 +38,7 @@ export const projects = [
     content:
       "The web application utilizes a third party API to fetch and show football data across the major european leagues. The data includes league tables and standings as well as upcoming games for the week.",
     tools: "React JS, Axios",
+    link: "https://everything-about-football.netlify.app/",
     image: `${footballImage}`,
   },
   {
