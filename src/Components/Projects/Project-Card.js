@@ -12,10 +12,9 @@ const Card = (props) => {
         <h1>{title}</h1>
         <p>
           {content}
-          {" Visit  "}
           {link && (
             <a href={link} rel="noreferrer nofollow" target="_blank">
-              here
+              Visit here
             </a>
           )}
         </p>
