@@ -30,7 +30,7 @@ const Footer = () => {
         </a>
       </div>
       <hr></hr>
-      <small>©Aarush Sharma {currentYear}</small>
+      <small>Copyrigt and Designed by Aarush Sharma {currentYear}</small>
     </div>
   );
 };
