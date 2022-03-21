@@ -9,7 +9,7 @@ export const aboutMe = {
     "I have always been fascinated by how the tech around us works and evolves. Thats how I got myself into programming.",
   main: "Graduating with B-Tech from Indian Institute of Technology - BHU, I began learning to code, solving competitive algorithmic problems. Being lazy by nature, I built a python automation script as my first project. As I explored around, I began learning the fundamentals of web development and enjoyed an artistic emotion as I created various projects. These days I am working on building web applications using the MERN stack.",
   resume:
-    "https://drive.google.com/file/d/1ahiLSUakkRQpetTELbkD1OdcYdWmyXng/view?usp=sharing",
+    "https://drive.google.com/file/d/1HDoDpiWJHHeUFt_1Esy2JWu4UaORI-Dh/view?usp=sharing",
 };
 
 export const hobbies = [
